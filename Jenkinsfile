@@ -48,7 +48,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'main branch'
+                echo 'In main branch'
             }
         }
     }
